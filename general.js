@@ -27,7 +27,7 @@ let homeBtn = document.querySelector('.home-btn');
 homeBtn.onclick = () => {
   pageLoad.classList.add('fixed');
   setTimeout(() => {
-    window.location.href = 'home.html';
+    window.location.href = 'index.html';
   }, 2400)
 }
 let portfolioBtn = document.querySelector('.portfolio-btn');
