@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KAMAC</title>
+  <link rel="shortcut icon" href="kamac-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <img class="logo" width="40px" src="kamac-logo.png" alt="logo">
+    <nav class="menu">
+      <button class="home-btn" type="button">
+        <img width="24px" src="home-icon.png" alt="icon">
+      </button>
+      <button class="portfolio-btn" type="button">
+        <img width="24px" src="portfolio-icon.png" alt="icon">
+      </button>
+      <button class="contact-btn" type="button">
+        <img width="24px" src="contact-icon.png" alt="icon">
+      </button>
+    </nav>
+  </header>
+  <aside class="page-load-section">
+    <figure class="box">
+      <img width="40px" src="kamac-logo.png" alt="logo">
+      <figcaption class="txt"><strong>KAMAC</strong> - <small>Meeting Your Desire With Simplicity</small></figcaption>
+    </figure>
+  </aside>
+  <main>
+    <section class="portfolio-section">
+      <h1>Portfolio</h1>
+      <div class="portfolio-box"></div>
+      <div class="edit-box">
+        <button class="edit-btn" type="button">
+          <strong>&#9998; Edit</strong>
+          <small>For Admin Only</small>
+        </button>
+        <form class="validate-admin-form" action="" method="get" accept-charset="utf-8">
+          <input placeholder="Type password" type="password" class="admin-password" name="admin-password" id="admin-password" value="">
+          <input class="submit-btn" name="validate" id="validate" type="submit" value="Validate">
+          <p class="error-message"></p>
+        </form>
+        <div class="stationary file-type-box">
+          <div class="container">
+            <h1>Select File Type</h1>
+            <div class="box">
+              <button class="img-btn" type="button">
+                <img width="40px" src="file-icon.png" alt="icon">
+                <span>Images</span>
+                </button>
+              <button class="video-btn" type="button">
+              <img width="40px" src="file-icon.png" alt="icon">
+                <span>Video</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="stationary" id="add-img-portfolio-form">
+          <form class="add-img-portfolio-form" action="" method="get" accept-charset="utf-8">
+            <label for="portfolio-img-file">Select File</label>
+            <input type="file" class="file" name="portfolio-img-file" id="portfolio-img-file" value="" required="true">
+            <input class="submit-btn" name="post-img-btn" id="post-img-btn" type="submit" value="Post">
+          </form>
+        </div>
+        <div class="stationary" id="add-video-portfolio-form">
+          <form class="add-video-portfolio-form" action="" method="get" accept-charset="utf-8">
+            <label for="portfolio-video-file">Select File</label>
+            <input type="file" class="file" name="portfolio-video-file" id="portfolio-video-file" value="" required="true">
+            <input class="submit-btn" name="post-video-btn" id="post-video-btn" type="submit" value="Post">
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="kamac-id">
+      <figure>
+        <img width="100px" src="kamac-logo.png" alt="logo">
+        <figcaption><strong>KAMAC</strong> - <small>Meeting Your Desire With Simplicity</small></figcaption>
+      </figure>
+    </div>
+    <div>
+      <p>Twenty Twenty Five</p>
+      <p>@copyright by Kaine Marvellous</p>
+    </div>
+    <button class="back-to-top-btn" type="button">&UpArrow;</button>
+  </footer>
+  
+  <script src="general.js"></script>
+  <script src="portfolio.js"></script>
+</body>
+
+</html>
